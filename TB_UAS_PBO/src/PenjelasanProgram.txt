@@ -1,0 +1,20 @@
+Program ini adalah program penghitung gaji karyawan pada PT XYZ
+Ketentuan :
+    1. Terdapat 5 Jabatan, yaitu : Direktur, Manager, Kepala Divisi, Staff Divisi, dan Jabatan lainnya (Office Boy, Satpam, Sopir, dll)
+    2. Gaji pokok untuk setiap jabatan berbeda, yaitu :
+        Direktur        : Rp 30.000.000,-
+        Manager         : Rp 20.000.000,-
+        Kepala Divisi   : Rp 10.000.000,-
+        Staff Divisi    : Rp 5.000.000,-
+        Lainnya         : Rp 2.500.000,-
+    3. Selain gaji pokok, karyawan juga menerima gaji tambahan berjasarkan jam lembur, yaitu sebesar Rp 50.000,- / jam
+    4. Karyawan juga akan menerima potongan gaji berdasarkan jumlah hari absen, yaitu sebesar Rp 100.000,- / hari
+    5. Program akan menghitung total gaji untuk setiap jabatan ((Gaji pokok + gaji lembur) - potongan absen)
+    6. Cara kerja program :
+        - program akan menampilkan menu kepada pengguna, yaitu lihat data, tambah data, update data, hapus data, dan keluar
+        - menu lihat data akan menampilkan data semua karyawan beserta hasil perhitungan total gajinya
+        - menu tambah data memungkinkan pengguna untuk menambahkan data id, nama, jabatan, jam lembur dan hari absen.
+          kemudian program akan menghitung total gajinya
+        - menu update data memungkinkan pengguna mengupdate nama karyawan
+        - menu hapus data memungkinkan pengguna menghapus data satu karyawan berdasarkan ID karyawan
+        - menu keluar akan menutup program (men-terminate program)
